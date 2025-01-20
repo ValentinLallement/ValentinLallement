@@ -11,6 +11,7 @@ Je suis un développeur passionné par l'innovation, et je travaille sur des pro
 ## 📈 Mes contributions GitHub
 
 ![Graphique de mes contributions GitHub](https://github-readme-stats.vercel.app/api?username=ValentinLallement&show_icons=true&hide_title=true)
+[![Trophées GitHub](https://github-profile-trophy.vercel.app/?username=ValentinLallement)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## 🌱 En ce moment, j'apprends ...
 
