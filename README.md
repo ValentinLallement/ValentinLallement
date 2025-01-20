@@ -33,9 +33,6 @@ En tant que développeur, je me concentre sur l'optimisation des performances et
 ### Mes statistiques GitHub :
 ![Mes stats GitHub](https://github-readme-stats.vercel.app/api?username=ValentinLallement&show_icons=true&hide_title=true&count_private=true)
 
-### Trophées GitHub : 
-[![Trophées GitHub](https://github-profile-trophy.vercel.app/?username=ValentinLallement)](https://github.com/ryo-ma/github-profile-trophy)
-
 ## 💼 Projets en cours
 
 ### 🎵 **Soundrise.fr**
@@ -43,10 +40,6 @@ Un projet ambitieux visant à réinventer la manière dont les créateurs de mus
 
 - [Voir le projet ici](https://www.soundrise.fr)
 - **Technologies** : Django, React, WebSocket
-
-### 🌍 **Projets Open-Source**
-- [Nom du projet 1](https://github.com/ValentinLallement/projet-1) : Description du projet.
-- [Nom du projet 2](https://github.com/ValentinLallement/projet-2) : Description du projet.
 
 ## 🌱 Ce que j'apprends actuellement
 
@@ -66,8 +59,8 @@ Je me concentre sur l'apprentissage de nouvelles compétences pour développer d
 
 N'hésite pas à me contacter pour toute collaboration, opportunité ou juste une discussion autour du développement !
 - **Email** : [lallement.valentin.lv@gmail.com](mailto:lallement.valentin.lv@gmail.com)
-- **LinkedIn** : [Profil LinkedIn](https://www.linkedin.com/in/ton-profil/)
-- **Twitter** : [@ValentinLallement](https://twitter.com/ton_twitter)
+- **LinkedIn** : [Profil LinkedIn](https://www.linkedin.com/in/valentin-lallement-a7096228a/)
+
 
 ## 👨‍💻 En savoir plus sur mes contributions
 
