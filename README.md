@@ -11,11 +11,12 @@ En tant que développeur, je me concentre sur l'optimisation des performances et
 - Je m'améliore sur **Unity** pour explorer le développement de jeux.
 - J'apprends **Django REST** pour perfectionner mes API back-end.
 - Je me forme au **C#** pour étendre mes compétences dans le développement de jeux.
+- Je développe un nouveau modele d'ia
 
 ## 🔧 Technologies et outils
 
 ### Langages et frameworks que j’utilise :
-- **Python** : Backend (Django, Flask)
+- **Python** : Backend (Django, Flask,TensorFlow,PyTorch...)
 - **JavaScript** : Frontend (React, Vue.js)
 - **HTML5/CSS3** : Frontend et maquettes
 - **C#** : Développement de jeux et Unity
