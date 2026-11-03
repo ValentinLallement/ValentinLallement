@@ -125,6 +125,10 @@ timeline
   <img alt="Snake qui mange mes contributions" src="https://raw.githubusercontent.com/ValentinLallement/ValentinLallement/output/snake-dark.svg" width="100%" />
 </picture>
 
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/ValentinLallement/ValentinLallement/output/contribs.svg" width="100%" alt="Mes contributions, année par année, depuis la création du compte" />
+
 
 </div>
 
@@ -152,7 +156,5 @@ timeline
 <sub>Ouvert aux échanges, aux conseils et aux collabs sur des projets autour de l'IA ou des jeux vidéo — n'hésite pas à m'écrire.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF99,100:FF0066&height=90&section=footer" width="100%" alt="" />
-
-<img src="https://streak-stats.demolab.com?user=ValentinLallement&theme=dark&hide_border=true&background=0b0f17&ring=00FF99&fire=FF0066&currStreakLabel=00FF99&sideLabels=c9d1d9&dates=6b7280&locale=fr" alt="Mes contributions depuis le début" />
 
 </div>

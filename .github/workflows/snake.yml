@@ -2,8 +2,8 @@ name: Snake de contributions
 
 on:
   schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
+    - cron: "0 3 * * *"   # tous les jours à 3h UTC
+  workflow_dispatch:      # lancement manuel possible
   push:
     branches: [main]
 
@@ -14,6 +14,20 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
+      # 1) Carte de toutes les années (avant le snake, pour créer dist/ avec les bons droits)
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Générer la carte de toutes mes années
+        continue-on-error: true   # si ça échoue, le snake est quand même publié
+        run: python .github/scripts/contribs.py dist/contribs.svg
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2) Snake
       - name: Générer les SVG du snake
         uses: Platane/snk@v3
         with:
