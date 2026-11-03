@@ -35,13 +35,16 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",mo
 <rect class="r" x="178" y="142" width="230" height="12" rx="3" fill="#1f2937" style="animation-delay:1.2s"/>
 <text x="28" y="182" font-size="12" fill="#6b7280">// détails classifiés jusqu'à nouvel ordre<tspan class="cur" fill="#00FF99">▍</tspan></text>
 
-<!-- Carte 2 : projet mystère -->
+<!-- Carte 2 : jeu incrémental -->
 <rect x="630" y="0" width="370" height="200" rx="18" fill="#0b0f17"/>
 <rect x="630.5" y=".5" width="369" height="199" rx="17.5" fill="none" stroke="#1f2937" stroke-dasharray="6 6"/>
-<circle cx="660" cy="36" r="5" fill="#febc2e"/>
-<text x="674" y="41" font-size="13" fill="#febc2e" letter-spacing="1.5">TOUT JUSTE COMMENCÉ</text>
-<text x="815" y="118" font-size="64" font-weight="700" fill="#374151" text-anchor="middle">???</text>
-<rect x="660" y="148" width="310" height="6" rx="3" fill="#1f2937"/>
-<rect class="load" x="660" y="148" width="310" height="6" rx="3" fill="url(#g)" style="transform-origin:660px 0"/>
-<text x="660" y="182" font-size="12" fill="#6b7280">chargement…</text>
+<circle class="dot" cx="660" cy="36" r="5" fill="#febc2e"/>
+<text x="674" y="41" font-size="13" fill="#febc2e" letter-spacing="1.5">EN COURS · DÉBUT</text>
+<text x="964" y="41" font-size="13" fill="#6b7280" text-anchor="end">🔒</text>
+<text x="656" y="86" font-size="22" font-weight="700" fill="#f3f4f6">JEU INCRÉMENTAL</text>
+<text x="656" y="110" font-size="13" fill="#9ca3af">Godot · Blender</text>
+<text x="656" y="140" font-size="18" fill="#00FF99">+<tspan class="cnt">1</tspan> idée/s</text>
+<rect x="660" y="156" width="310" height="6" rx="3" fill="#1f2937"/>
+<rect class="load" x="660" y="156" width="310" height="6" rx="3" fill="url(#g)" style="transform-origin:660px 0"/>
+<text x="660" y="188" font-size="12" fill="#6b7280">chargement…</text>
 </svg>

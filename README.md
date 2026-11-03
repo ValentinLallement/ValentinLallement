@@ -153,4 +153,6 @@ timeline
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF99,100:FF0066&height=90&section=footer" width="100%" alt="" />
 
+<img src="https://streak-stats.demolab.com?user=ValentinLallement&theme=dark&hide_border=true&background=0b0f17&ring=00FF99&fire=FF0066&currStreakLabel=00FF99&sideLabels=c9d1d9&dates=6b7280&locale=fr" alt="Mes contributions depuis le début" />
+
 </div>
