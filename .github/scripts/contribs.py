@@ -66,16 +66,25 @@ def streaks(days, today):
     return longest, cur
 
 
-def level(n, mx):
+def make_levels(days):
+    """Seuils par quartiles des jours actifs, comme la grille de GitHub."""
+    vals = sorted(v for v in days.values() if v > 0)
+    if not vals:
+        return [1, 1, 1]
+    q = lambda p: vals[min(len(vals) - 1, int(p * len(vals)))]
+    return [q(0.25), q(0.5), q(0.75)]
+
+
+def level(n, th):
     if n == 0:
         return 0
-    return min(4, 1 + int(3 * n / max(mx, 1)))
+    return 1 + sum(n > t for t in th)
 
 
 def render(days, first_year, today):
     total = sum(days.values())
     longest, cur = streaks(days, today)
-    mx = max(days.values() or [1])
+    th = make_levels(days)
     years = list(range(today.year, first_year - 1, -1))  # plus récent en haut
 
     W, cell, gap = 1000, 12, 3
@@ -118,7 +127,7 @@ def render(days, first_year, today):
             if d.day == 1 and dow < 7:
                 o.append(f'<text x="{x}" y="{y0 + 4}" font-size="10" fill="{MUTED}">{MOIS[d.month-1]}</text>')
             if d <= last:
-                lv = level(days.get(d.isoformat(), 0), mx)
+                lv = level(days.get(d.isoformat(), 0), th)
                 delay = round(0.004 * wk + 0.15 * r, 3)
                 o.append(f'<rect class="c" style="animation-delay:{delay}s" x="{x}" y="{yy}" '
                          f'width="{cell}" height="{cell}" rx="2.5" fill="{LEVELS[lv]}"/>')
